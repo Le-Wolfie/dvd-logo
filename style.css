@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+}
+.logo img{
+    max-width: 150px;
+    max-height: 100px;
+}
+
+@media (max-width : 768px){
+    .logo{
+        width: 150px;
+    }
+}
